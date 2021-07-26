@@ -25,7 +25,6 @@ const videoSchema = new mongoose.Schema({
     type: String,
     required: true
   }
-  
 });
 const Video = mongoose.model("Video", videoSchema);
 
