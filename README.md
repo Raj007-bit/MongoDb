@@ -1,8 +1,8 @@
 # MongoDb
 
-1. Connect MongoDb
+# 1. Connect MongoDb
    
-   /*----------------npm package------------*/
+/*----------------npm package------------*/
 const mongoose = require('mongoose');
 
 
@@ -13,7 +13,7 @@ mongoose.connect("mongodb://localhost:27020/databaseName", {
 });
 
 
-2. Schema creation and Post routes
+# 2. Schema creation and Post routes
   
   /*---------------Create a Schema-------------*/
 const videoSchema = new mongoose.Schema({
@@ -42,7 +42,7 @@ app.post('/uploadvideo',(req,res)=>{
   });
 });
    
-3. Edit and Delete Routes
+# 3. Edit and Delete Routes
    
    /*------------------ Update Routes ------------------------*/
 /*---------Here i have taken an example of MovieDb-----------*/
