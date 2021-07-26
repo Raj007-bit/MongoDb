@@ -75,6 +75,7 @@ app.post("/updatepainting/:id", function(req, res) {
 });
 
 
+
 /*------------------ Delete Routes ------------------------*/
 /*---------Here i have taken an example of VideoDb-----------*/
 app.post("/delete/:id", function(req, res) {
